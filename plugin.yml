@@ -1,0 +1,19 @@
+name: FSsign
+main: FransicSteve\Main
+version: 1.0.9
+#The last version
+api: 
+- 1.10.0
+- 2.0.0
+load: POSTWORLD
+author: FransicSteve
+commands:
+ FSsign:
+  description: "FSsign总命令"
+  usage: "/FSsign help"
+  permission: FSsign.command.FSsign
+permissions:
+ FSsign.command.FSsign:
+  default: op
+  description: "OP"
+  
