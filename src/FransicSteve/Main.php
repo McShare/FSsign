@@ -106,7 +106,7 @@ public function change(SignChangeEvent $event)
    $event->setLine(0,"§e[§bFS命令木牌§e]");
    $event->setLine(1,"§7$get2");
    $event->setLine(2,"§c点我运行命令");
-   $event->setLine(3,"§9命令:§d/$get3");
+   $event->setLine(3,"§9木牌创建者:§d$player->getName()");
    $block = $event->getBlock();
    $x = $block->getX();
    $y = $block->getY();
